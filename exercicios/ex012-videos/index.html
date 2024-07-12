@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente (não recomendado pois consome muita transferencia de dados)</h1>
+    <p>este vídeo está hospedado no meu proprio servidor.</p>
+    <video width="200" controls> <!-- autoplay para tocar imediatamente  e poster="" para colocar thumbnail-->
+        <source src="media/video720p.mp4" type="video/mp4">
+        <source src="media/video360p.webm" type="video/webm">
+        <p>Infelizmente seu navegador não suporta o formato de vídeo</p>
+    </video>
+
+        <h1>inserindo videos do youtube</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg?si=KRVDiFpDGCxQ1Rty" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VQATCzg5HDE?si=cg2j8A7IjdOKpvGK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    </video>
+    
+    <h1>inserindo videos do vimeo (melhor qualidade)</h1>
+
+    <iframe src="https://player.vimeo.com/video/197093965?h=7fbc516b5a" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    
+</body>
+</html>
